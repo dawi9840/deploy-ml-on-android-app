@@ -33,7 +33,8 @@ import java.nio.MappedByteBuffer
 import java.nio.channels.FileChannel
 
 class ImgClassifierActivity : AppCompatActivity() {
-
+    // reference: https://youtu.be/hsSPb6V84zc
+    
     private lateinit var binding: ActivityImgClassifierBinding
     private lateinit var imgView: ImageView
     private lateinit var btnCaptureImg: Button
