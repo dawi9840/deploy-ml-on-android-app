@@ -18,6 +18,7 @@ import org.tensorflow.lite.gpu.GpuDelegate
 
 
 class DigitClassifier(private val context: Context) {
+  // reference: https://developer.android.com/codelabs/digit-classifier-tflite#0
   /** An Interpreter for the TFLite model.   */
   private var gpuDelegate: GpuDelegate? = null
   // TODO: Add a TF Lite interpreter as a field.
