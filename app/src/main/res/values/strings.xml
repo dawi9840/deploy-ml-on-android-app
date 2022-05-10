@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">tflite-deploy-on-android</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="prediction_text_placeholder">prediction_text_placeholder</string>
+    <string name="clear_button_text">clear_button_text</string>
+    <string name="classification_error_message" />
+    <string name="clear_text">clear text</string>
+</resources>
