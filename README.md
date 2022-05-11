@@ -32,7 +32,7 @@ Download tflite model from TensorFlow Hub: E.g., [aiy/vision/classifier/birds_V1
 *  2-2: With interpreter invoke tflite model   
 -----------------------------------------------------------      
 ***1.Pre-work: dependencies setting on android***   
-In gradle:app file:   
+In the gradle:app file:   
 1.With android{} block to add aaptOptions{} block. The purpose is to not compress the input and output files of tflite file.   
 ![image](https://user-images.githubusercontent.com/19554347/167754536-9425d678-ccc0-42ad-8f16-21faa09801fa.png)   
 
