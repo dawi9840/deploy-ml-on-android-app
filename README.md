@@ -32,15 +32,15 @@ Download tflite model from TensorFlow Hub: E.g., [aiy/vision/classifier/birds_V1
 *  2-2: With interpreter invoke tflite model   
 -----------------------------------------------------------      
 ***1.Pre-work: dependencies setting on android***   
-In the gradle:app file:   
-1.With android{} block to add aaptOptions{} block. The purpose is to not compress the input and output files of tflite file.   
+*  In the gradle:app file:   
+Step1: With android{} block to add aaptOptions{} block. The purpose is to not compress the input and output files of tflite file.   
 ![image](https://user-images.githubusercontent.com/19554347/167754536-9425d678-ccc0-42ad-8f16-21faa09801fa.png)   
 
-2.With dependencies{} block to add tflite dependencies.   
+Step2: With dependencies{} block to add tflite dependencies.   
 ![image](https://user-images.githubusercontent.com/19554347/167754733-c60f2e8c-c5ef-4e7d-9e81-7643ebd3da19.png)   
 
 ***2.Deploy tflite on Android app***   
-2-1: Import TensorFlow Lite model
+*  2-1: Import TensorFlow Lite model
 Step1: To create a new ml model to import tlite model In app folder.   
 ![image](https://user-images.githubusercontent.com/19554347/167755002-94d39cdd-7dde-446a-a3ed-261b6fc504fd.png)   
 
@@ -52,7 +52,7 @@ Click on one of the models, you will find sample code to know how to invoke.
 E.g., invoke usage:   
 ![image](https://user-images.githubusercontent.com/19554347/167756364-addd8226-033c-4210-8e10-70924f8f5e31.png)
 
-2-2: With interpreter invoke tflite model   
+*  2-2: With interpreter invoke tflite model   
 Add an assert folder to the app, and then manually put the tflite file into it.   
 ![Untitled](https://user-images.githubusercontent.com/19554347/167756527-b01ad3b5-10b6-433e-9002-ee35c61c090a.png)   
 E.g., invoke usage:   
