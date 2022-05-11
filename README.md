@@ -8,7 +8,7 @@ Example of training a tensorflow model and deploying tflite model on android app
 
 
 
-## Part1.Two ways to get tflite model
+## Part1.Get the tflite model of two ways:   
 **Method1: Create Tflite model by yourself**   
 *  Create ml model with python   
 *  Quantized model -> convert tflite   
