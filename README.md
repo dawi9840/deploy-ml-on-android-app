@@ -13,14 +13,14 @@ Method2: Download Tflite model from TensorFlow Hub
 
 
 # Part2.Deploy tflite model on android studio   
-1.Pre-work: dependencies setting on android
-2.Two ways of deploying tflite on Android app:
-  2-1: Import TensorFlow Lite model
-  2-2: With interpreter invoke tflite model
+1.Pre-work: dependencies setting on android   
+2.Two ways of deploying tflite on Android app:   
+*  2-1: Import TensorFlow Lite model      
+*  2-2: With interpreter invoke tflite model   
 
 ***1.Pre-work: dependencies setting on android***   
-In gradle:app file:
-1.With android{} block to add aaptOptions{} block. The purpose is to not compress the input and output files of tflite file.
+In gradle:app file:   
+1.With android{} block to add aaptOptions{} block. The purpose is to not compress the input and output files of tflite file.   
 ![image](https://user-images.githubusercontent.com/19554347/167754536-9425d678-ccc0-42ad-8f16-21faa09801fa.png)   
 
 2.With dependencies{} block to add tflite dependencies.   
