@@ -1,5 +1,5 @@
 # deploy-ml-on-android-app
-Example of deploying tflite model on android application.   
+Example of training a tensorflow model and deploying tflite model on android application from scratch.    
 
 
 
