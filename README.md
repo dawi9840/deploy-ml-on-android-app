@@ -2,7 +2,8 @@
 Example of training a tensorflow model and deploying tflite model on android application from scratch.  
 
 ## The flowchart:
- ![tflite_model_deploy_to_android drawio](https://user-images.githubusercontent.com/19554347/167766330-760cb17a-bfa2-43f8-b49b-28aabc11de15.png)   
+ ![tflite_model_deploy_to_android drawio](https://user-images.githubusercontent.com/19554347/167766895-e3340be6-7793-4171-96d3-a4615c186ddb.png)   
+  
 
 
 
