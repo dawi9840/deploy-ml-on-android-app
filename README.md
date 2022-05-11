@@ -5,14 +5,14 @@ Example of deploying tflite model on android application.
 
 # Part1.兩種方式取得tflite 
 方式1: 自行創建Tflite file   
-  Create ml model with python   
-  Quantized model -> convert tflite   
+    Create ml model with python   
+    Quantized model -> convert tflite   
 
 方式2: 從TF Hub 官方下載 Tflite nodel
   Download tflite model from TensorFlow Hub: E.g., [aiy/vision/classifier/birds_V1](https://tfhub.dev/google/lite-model/aiy/vision/classifier/birds_V1/3)   
 
 
-# Part2.tflite deploy 至 android studio上使用![image](https://user-images.githubusercontent.com/19554347/167744174-4ba64076-fec3-4e1c-8f54-5e00861fffce.png)
+# Part2.tflite deploy 至 android studio上使用   
 1.前置作業: dependencies setting on android
 2.Deploy tflite on Android app:
   2-1: 用Import TensorFlow Lite model 方式
