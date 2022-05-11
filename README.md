@@ -35,7 +35,7 @@ Step2: Then the imported tflite file will be placed in the automatically generat
 ![image](https://user-images.githubusercontent.com/19554347/167755361-7d096ce2-b72a-4a97-96f4-0a3cf65590a1.png)   
 
 Click on one of the models, you will find sample code to know how to invoke.   
-![image](https://user-images.githubusercontent.com/19554347/167756290-84f8fdc0-00f6-4dba-936a-5571fb8a6639.png)
+![image](https://user-images.githubusercontent.com/19554347/167756290-84f8fdc0-00f6-4dba-936a-5571fb8a6639.png)   
 E.g., invoke usage:   
 ![image](https://user-images.githubusercontent.com/19554347/167756364-addd8226-033c-4210-8e10-70924f8f5e31.png)
 
