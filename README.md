@@ -9,17 +9,18 @@ Example of training a tensorflow model and deploying tflite model on android app
 
 
 ## Part1.Two ways to get tflite model
-Method1: Create Tflite model by yourself.   
+**Method1: Create Tflite model by yourself**   
 *  Create ml model with python   
 *  Quantized model -> convert tflite   
 
-**Usage:** Run the code and will get the example tflite model.  
+Usage: Run the code and will get the example tflite model.  
 ```bash
  python main.py
 ```     
 
-Method2: Download Tflite model from TensorFlow Hub
+**Method2: Download Tflite model from TensorFlow Hub**
   Download tflite model from TensorFlow Hub: E.g., [aiy/vision/classifier/birds_V1](https://tfhub.dev/google/lite-model/aiy/vision/classifier/birds_V1/3)   
+![image](https://user-images.githubusercontent.com/19554347/167779755-99e778c5-9686-4b9b-8db2-029c86bd6165.png)   
 
 
 ## Part2.Deploy tflite model on android studio   
