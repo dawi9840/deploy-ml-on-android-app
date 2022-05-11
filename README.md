@@ -59,7 +59,7 @@ Disadvantages: Only use the default CPU memory on android to invoke model.
 
 
 ***Use 2-2 method way to invoke model: ***   
-Advantages: Could use interpreter GpuDelegate method to invoke the tflite model with the GPU on Android.  e.g., [TensorFlow Lite PoseNet Android Demo].(https://github.com/tensorflow/examples/tree/master/lite/examples/posenet/android)   
+Advantages: Could use interpreter GpuDelegate method to invoke the tflite model with the GPU on Android.  e.g., [TensorFlow Lite PoseNet Android Demo.](https://github.com/tensorflow/examples/tree/master/lite/examples/posenet/android)   
 Disadvantages: There is no sample code to tip, how to use the tflite model, which means we have to study the input and output format of the model obtained by yourself to invoke.
 
 
