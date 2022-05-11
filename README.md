@@ -5,13 +5,8 @@ Example of training a tensorflow model and deploying tflite model on android app
  ![tflite_model_deploy_to_android drawio](https://user-images.githubusercontent.com/19554347/167766895-e3340be6-7793-4171-96d3-a4615c186ddb.png)   
   
   
-## Demo inference result on Android app (click the picture to watch)    
-[![place_holder](https://user-images.githubusercontent.com/19554347/167804213-e7263c10-6a47-46ee-9b54-f58c7a692da8.png)](https://youtu.be/mU2YmwDdd1A)   
-
-
-
-
-
+## Demo inference result on Android app       
+[![Screenshot 2022-05-11 163220](https://user-images.githubusercontent.com/19554347/167805591-e79e4cab-e019-4632-94fc-506a2697abe8.png)](https://youtu.be/mU2YmwDdd1A)      
 
 
 ## Part1: Get the tflite model of two ways on PC   
