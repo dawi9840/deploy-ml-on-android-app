@@ -1,8 +1,7 @@
 # deploy-ml-on-android-app
-Example of deploying tflite model on android application.
+Example of deploying tflite model on android application.   
 
-Part1.兩種方式取得tflite    
-Part2.將tflite 模型布署至 android app上    
+
 
 # Part1.兩種方式取得tflite 
 方式1: 自行創建Tflite file   
