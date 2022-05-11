@@ -3,22 +3,22 @@ Example of deploying tflite model on android application.
 
 
 
-# Part1.兩種方式取得tflite 
-方式1: 自行創建Tflite file   
-    Create ml model with python   
-    Quantized model -> convert tflite   
+# Part1.Two ways to get tflite model
+Method1: Create Tflite model by yourself.   
+*  Create ml model with python   
+*  Quantized model -> convert tflite   
 
-方式2: 從TF Hub 官方下載 Tflite nodel
+Method2: Download Tflite model from TensorFlow Hub
   Download tflite model from TensorFlow Hub: E.g., [aiy/vision/classifier/birds_V1](https://tfhub.dev/google/lite-model/aiy/vision/classifier/birds_V1/3)   
 
 
-# Part2.tflite deploy 至 android studio上使用   
-1.前置作業: dependencies setting on android
-2.Deploy tflite on Android app:
-  2-1: 用Import TensorFlow Lite model 方式
-  2-2: 用interpreter 呼叫 tflite model
+# Part2.Deploy tflite model on android studio   
+1.Pre-work: dependencies setting on android
+2.Two ways of deploying tflite on Android app:
+  2-1: Import TensorFlow Lite model
+  2-2: With interpreter invoke tflite model
 
-***1.前置作業: dependencies setting on android***   
+***1.Pre-work: dependencies setting on android***   
 In gradle:app file:
 1.With android{} block to add aaptOptions{} block. The purpose is to not compress the input and output files of tflite file.
 ![image](https://user-images.githubusercontent.com/19554347/167754536-9425d678-ccc0-42ad-8f16-21faa09801fa.png)   
