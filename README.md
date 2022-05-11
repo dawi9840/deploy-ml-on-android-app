@@ -56,7 +56,8 @@ E.g., invoke usage:
 ![ww](https://user-images.githubusercontent.com/19554347/167757452-5a15805f-9ba9-4fbf-a859-d9bb24be426a.png)   
 
    
-## Advantages and disadvantages of two ways to invoke tflite model on Android:   
+## My points:   
+Advantages and disadvantages of two ways to invoke tflite model on Android:   
 
 **Use 2-1 method way to import model:**   
 Advantages: Could use the sample code for easy use to invoke model.   
