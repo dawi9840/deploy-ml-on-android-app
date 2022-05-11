@@ -1,9 +1,12 @@
 # deploy-ml-on-android-app
-Example of training a tensorflow model and deploying tflite model on android application from scratch.    
+Example of training a tensorflow model and deploying tflite model on android application from scratch.  
+
+## The flowchart:
+![tflite_model_deploy_to_android drawio](https://user-images.githubusercontent.com/19554347/167766018-fcf59cad-1819-45e4-891d-91f5311d4f82.png)   
 
 
 
-# Part1.Two ways to get tflite model
+## Part1.Two ways to get tflite model
 Method1: Create Tflite model by yourself.   
 *  Create ml model with python   
 *  Quantized model -> convert tflite   
@@ -12,12 +15,12 @@ Method2: Download Tflite model from TensorFlow Hub
   Download tflite model from TensorFlow Hub: E.g., [aiy/vision/classifier/birds_V1](https://tfhub.dev/google/lite-model/aiy/vision/classifier/birds_V1/3)   
 
 
-# Part2.Deploy tflite model on android studio   
+## Part2.Deploy tflite model on android studio   
 1.Pre-work: dependencies setting on android   
 2.Two ways of deploying tflite on Android app:   
 *  2-1: Import TensorFlow Lite model      
 *  2-2: With interpreter invoke tflite model   
--------------------------------------------------------------      
+-----------------------------------------------------------      
 ***1.Pre-work: dependencies setting on android***   
 In gradle:app file:   
 1.With android{} block to add aaptOptions{} block. The purpose is to not compress the input and output files of tflite file.   
