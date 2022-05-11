@@ -39,13 +39,11 @@ Step2: With dependencies{} block to add tflite dependencies.
 ![image](https://user-images.githubusercontent.com/19554347/167754733-c60f2e8c-c5ef-4e7d-9e81-7643ebd3da19.png)   
 
 ***2.Deploy tflite on Android app***   
-*  2-1: Import TensorFlow Lite model
+*  2-1: Import TensorFlow Lite model   
 Step1: To create a new ml model to import tlite model In app folder.   
 ![image](https://user-images.githubusercontent.com/19554347/167755002-94d39cdd-7dde-446a-a3ed-261b6fc504fd.png)   
-
 Step2: Then the imported tflite file will be placed in the automatically generated ml folder. 
 ![image](https://user-images.githubusercontent.com/19554347/167755361-7d096ce2-b72a-4a97-96f4-0a3cf65590a1.png)   
-
 Click on one of the models, you will find sample code to know how to invoke.   
 ![image](https://user-images.githubusercontent.com/19554347/167756290-84f8fdc0-00f6-4dba-936a-5571fb8a6639.png)   
 E.g., invoke usage:   
