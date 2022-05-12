@@ -20,7 +20,7 @@ Usage: Run the code and will get the example tflite model.
 ```     
 
 **Method2: Download Tflite model from TensorFlow Hub**   
-Download tflite model from TensorFlow Hub: E.g., [aiy/vision/classifier/birds_V1](https://tfhub.dev/google/lite-model/aiy/vision/classifier/birds_V1/3)    
+E.g., [aiy/vision/classifier/birds_V1](https://tfhub.dev/google/lite-model/aiy/vision/classifier/birds_V1/3)    
   
    ![Screenshot 2022-05-11 140510](https://user-images.githubusercontent.com/19554347/167780010-ebc1bc1a-4bfa-472d-99ab-94e503c2d762.png)    
 
